@@ -3,15 +3,17 @@ using System.Collections;
 
 public class MovingObject : MonoBehaviour {
 
-	// Use this for initialization
+    public int moveSpeed;
+    public int jumpHeight;
+
+    Rigidbody2D rb2D;
+
 	void Start () {
+        rb2D = GetComponent<Rigidbody2D>();
 	}
 	
-	// Update is called once per frame
 	void Update () {
-	    if(Input.GetKeyDown(KeyCode.DownArrow))
-        {
-            Debug.Log("Down");
-        }
+        Vector2 moveDir = new Vector2(Input.GetAxisRaw("Horizontal") * moveSpeed, Input.GetAxisRaw("Vertical") * moveSpeed);
+        rb2D.velocity = moveDir;
 	}
 }
