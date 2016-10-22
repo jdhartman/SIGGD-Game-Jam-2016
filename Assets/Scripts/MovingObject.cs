@@ -3,8 +3,8 @@ using System.Collections;
 
 public class MovingObject : MonoBehaviour {
 
-    public int moveSpeed;
-    public int jumpHeight;
+    public float moveSpeed;
+    public float jumpHeight;
 
     Rigidbody2D rb2D;
 
