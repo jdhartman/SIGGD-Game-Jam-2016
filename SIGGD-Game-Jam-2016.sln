@@ -1,7 +1,9 @@
-﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2015
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SIGGD-Game-Jam-2016.CSharp", "SIGGD-Game-Jam-2016.CSharp.csproj", "{8EA06484-F50A-2936-B785-F0C036688738}"
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{7D002CE3-F407-F151-6701-F3AEFCE3C00C}") = "SIGGD-Game-Jam-2016", "Assembly-CSharp.csproj", "{31C16113-5875-9D0B-B464-FB79B4712F80}"
+EndProject
+Project("{7D002CE3-F407-F151-6701-F3AEFCE3C00C}") = "SIGGD-Game-Jam-2016", "Assembly-CSharp-Editor.csproj", "{0FEAE88A-E15E-DA53-872A-6E9E090B3562}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,12 +11,19 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8EA06484-F50A-2936-B785-F0C036688738}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8EA06484-F50A-2936-B785-F0C036688738}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8EA06484-F50A-2936-B785-F0C036688738}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8EA06484-F50A-2936-B785-F0C036688738}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31C16113-5875-9D0B-B464-FB79B4712F80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31C16113-5875-9D0B-B464-FB79B4712F80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31C16113-5875-9D0B-B464-FB79B4712F80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31C16113-5875-9D0B-B464-FB79B4712F80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FEAE88A-E15E-DA53-872A-6E9E090B3562}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FEAE88A-E15E-DA53-872A-6E9E090B3562}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FEAE88A-E15E-DA53-872A-6E9E090B3562}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FEAE88A-E15E-DA53-872A-6E9E090B3562}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal

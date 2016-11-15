@@ -1,8 +1,14 @@
-﻿<Properties StartupItem="SIGGD-Game-Jam-2016.CSharp.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\MovingObject.cs">
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\EnemyScript.cs">
     <Files>
-      <File FileName="Assets\MovingObject.cs" Line="5" Column="2" />
+      <File FileName="Assets\Tiled2Unity\Imported\DesertMap.tiled2unity.xml" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\DepthController.cs" Line="10" Column="9" />
+      <File FileName="Assets\Scripts\PlayerScript.cs" Line="48" Column="87" />
+      <File FileName="Assets\Scripts\bulletCreate.cs" Line="11" Column="2" />
+      <File FileName="Assets\Scripts\CameraControl.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\WallScript.cs" Line="4" Column="42" />
+      <File FileName="Assets\Scripts\EnemyScript.cs" Line="14" Column="35" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
